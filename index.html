@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Bootstrap Tutorial Sample Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="https://upm.edu.my/">Universiti Putra Malaysia</a>
+
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <header class="page-header header container-fluid">
+        <div class="overlay"></div>
+        <div class="description">
+            <h1>Welcome to Universiti Putra Malaysia!</h1>
+            <p>Universiti Putra Malaysia (UPM), a leading research university in Malaysia, is located in Serdang, next
+                to Malaysia’s administrative
+                capital city, Putrajaya. As a world-renowned centre of learning and research, UPM has attracted students
+                and staff from all around the world, making it a well-respected global entity.</p>
+            <button class="btn btn-outline-secondary btn-lg"
+                onclick="window.location.href='https://www.youtube.com/watch?v=WUTzWoaFe3U';">Tell Me
+                More!</button>
+        </div>
+    </header>
+
+    <div id="intro" class="container features">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Dining and Cafeteria</h3>
+                <img src="images/column-1.jpg" class="img-fluid">
+                <p>The meeting of cultures and races at UPM has served to enrich the institution with a large assortment
+                    of delicious food. There are more than 10 cafeterias scattered all over the UPM compound, offering a
+                    variety of food choices in an array of flavours at reasonable prices. Students and staff can choose
+                    to indulge in the unique range of delicacies, which include kampung, Western and Middle Eastern,
+                    during their stay at UPM.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Expo Hill</h3>
+                <img src="images/column-2.jpg" class="img-fluid">
+                <p>After a long-day of work and study, visit Expo Hill , our recreational and physical activity
+                    location, Expo Hill or Bukit Ekspo as it is popularly known, is where you can release stress by
+                    exercising or simply enjoying the beauty of nature. This huge area of green is located in front of
+                    the Office of the Director of University Agricultural Park (TPU), UPM. Pack a picnic hamper and head
+                    for Expo Hill with the family; organize a faculty function or some other corporate event; have a
+                    great Family Day, an outdoorexhibition, a photo shoot or even try your hand at being a fisherman,
+                    maybe experience a kayaking afternoon. Expo Hill is an all-purpose facility that offers immense
+                    possibilities for activities on land and on water.</p>
+            </div>
+
+            <div id="contact" class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Get in Touch!</h3>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" name="">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" name="email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
